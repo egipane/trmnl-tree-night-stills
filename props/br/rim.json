@@ -1,0 +1,1201 @@
+{
+ "doc": "BR-teaser rim light (v3 fix 2). For every Designer props/sized/*@BR.png and *@BRx1.5.png, lift luminance by ~+10\ngray levels (8-bit) along the TOP edge of the silhouette only (solid pixels whose pixel 1..3 px above is transparent;\nlift 10,10,6), keeping alpha, even gray levels (asset spec) and Designer's originals untouched.\nWrites repo-staging/props/br/{asset}-x1.png (from @BR) and -x1p5.png (from @BRx1.5) + br/rim.json.\nUsage: python3 tools/make_br_rim.py [--catalogue DIR] [--out repo-staging/props/br]",
+ "files": {
+  "17mai-flag-bow-x1": {
+   "src": "props/sized/17mai-flag-bow@BR.png",
+   "size": [
+    94,
+    118
+   ],
+   "rim_px": 361,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "17mai-flag-bow-x1p5": {
+   "src": "props/sized/17mai-flag-bow@BRx1.5.png",
+   "size": [
+    141,
+    176
+   ],
+   "rim_px": 549,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "advent-candles-ice-x1": {
+   "src": "props/sized/advent-candles-ice@BR.png",
+   "size": [
+    137,
+    57
+   ],
+   "rim_px": 390,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "advent-candles-ice-x1p5": {
+   "src": "props/sized/advent-candles-ice@BRx1.5.png",
+   "size": [
+    204,
+    85
+   ],
+   "rim_px": 603,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "advent-candles-snow-a-x1": {
+   "src": "props/sized/advent-candles-snow-a@BR.png",
+   "size": [
+    148,
+    57
+   ],
+   "rim_px": 490,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "advent-candles-snow-a-x1p5": {
+   "src": "props/sized/advent-candles-snow-a@BRx1.5.png",
+   "size": [
+    220,
+    85
+   ],
+   "rim_px": 820,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "advent-candles-x1": {
+   "src": "props/sized/advent-candles@BR.png",
+   "size": [
+    162,
+    57
+   ],
+   "rim_px": 375,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "advent-candles-x1p5": {
+   "src": "props/sized/advent-candles@BRx1.5.png",
+   "size": [
+    241,
+    85
+   ],
+   "rim_px": 582,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "backpack-ice-x1": {
+   "src": "props/sized/backpack-ice@BR.png",
+   "size": [
+    90,
+    106
+   ],
+   "rim_px": 273,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "backpack-ice-x1p5": {
+   "src": "props/sized/backpack-ice@BRx1.5.png",
+   "size": [
+    135,
+    159
+   ],
+   "rim_px": 425,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "backpack-snow-a-x1": {
+   "src": "props/sized/backpack-snow-a@BR.png",
+   "size": [
+    105,
+    106
+   ],
+   "rim_px": 415,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "backpack-snow-a-x1p5": {
+   "src": "props/sized/backpack-snow-a@BRx1.5.png",
+   "size": [
+    158,
+    159
+   ],
+   "rim_px": 690,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "backpack-snow-b-x1": {
+   "src": "props/sized/backpack-snow-b@BR.png",
+   "size": [
+    89,
+    106
+   ],
+   "rim_px": 304,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "backpack-snow-b-x1p5": {
+   "src": "props/sized/backpack-snow-b@BRx1.5.png",
+   "size": [
+    133,
+    159
+   ],
+   "rim_px": 469,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "backpack-x1": {
+   "src": "props/sized/backpack@BR.png",
+   "size": [
+    145,
+    106
+   ],
+   "rim_px": 260,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "backpack-x1p5": {
+   "src": "props/sized/backpack@BRx1.5.png",
+   "size": [
+    218,
+    159
+   ],
+   "rim_px": 396,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "ball-quiet-ice-x1": {
+   "src": "props/sized/ball-quiet-ice@BR.png",
+   "size": [
+    67,
+    61
+   ],
+   "rim_px": 177,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "ball-quiet-ice-x1p5": {
+   "src": "props/sized/ball-quiet-ice@BRx1.5.png",
+   "size": [
+    100,
+    91
+   ],
+   "rim_px": 264,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "ball-quiet-snow-a-x1": {
+   "src": "props/sized/ball-quiet-snow-a@BR.png",
+   "size": [
+    62,
+    61
+   ],
+   "rim_px": 183,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "ball-quiet-snow-a-x1p5": {
+   "src": "props/sized/ball-quiet-snow-a@BRx1.5.png",
+   "size": [
+    92,
+    91
+   ],
+   "rim_px": 294,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "ball-quiet-x1": {
+   "src": "props/sized/ball-quiet@BR.png",
+   "size": [
+    96,
+    61
+   ],
+   "rim_px": 168,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "ball-quiet-x1p5": {
+   "src": "props/sized/ball-quiet@BRx1.5.png",
+   "size": [
+    144,
+    91
+   ],
+   "rim_px": 252,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "cake-x1": {
+   "src": "props/sized/cake@BR.png",
+   "size": [
+    156,
+    83
+   ],
+   "rim_px": 246,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "cake-x1p5": {
+   "src": "props/sized/cake@BRx1.5.png",
+   "size": [
+    235,
+    125
+   ],
+   "rim_px": 379,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "cleaning-bucket-ice-x1": {
+   "src": "props/sized/cleaning-bucket-ice@BR.png",
+   "size": [
+    93,
+    99
+   ],
+   "rim_px": 293,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "cleaning-bucket-ice-x1p5": {
+   "src": "props/sized/cleaning-bucket-ice@BRx1.5.png",
+   "size": [
+    138,
+    148
+   ],
+   "rim_px": 436,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "cleaning-bucket-snow-a-x1": {
+   "src": "props/sized/cleaning-bucket-snow-a@BR.png",
+   "size": [
+    84,
+    99
+   ],
+   "rim_px": 345,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "cleaning-bucket-snow-a-x1p5": {
+   "src": "props/sized/cleaning-bucket-snow-a@BRx1.5.png",
+   "size": [
+    125,
+    148
+   ],
+   "rim_px": 584,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "cleaning-bucket-x1": {
+   "src": "props/sized/cleaning-bucket@BR.png",
+   "size": [
+    110,
+    99
+   ],
+   "rim_px": 277,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "cleaning-bucket-x1p5": {
+   "src": "props/sized/cleaning-bucket@BRx1.5.png",
+   "size": [
+    164,
+    148
+   ],
+   "rim_px": 424,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "dog-bowl-tall-ice-x1": {
+   "src": "props/sized/dog-bowl-tall-ice@BR.png",
+   "size": [
+    107,
+    68
+   ],
+   "rim_px": 307,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "dog-bowl-tall-ice-x1p5": {
+   "src": "props/sized/dog-bowl-tall-ice@BRx1.5.png",
+   "size": [
+    161,
+    102
+   ],
+   "rim_px": 475,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "dog-bowl-tall-snow-a-x1": {
+   "src": "props/sized/dog-bowl-tall-snow-a@BR.png",
+   "size": [
+    102,
+    68
+   ],
+   "rim_px": 430,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "dog-bowl-tall-snow-a-x1p5": {
+   "src": "props/sized/dog-bowl-tall-snow-a@BRx1.5.png",
+   "size": [
+    153,
+    102
+   ],
+   "rim_px": 702,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "dog-bowl-tall-x1": {
+   "src": "props/sized/dog-bowl-tall@BR.png",
+   "size": [
+    169,
+    68
+   ],
+   "rim_px": 298,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "dog-bowl-tall-x1p5": {
+   "src": "props/sized/dog-bowl-tall@BRx1.5.png",
+   "size": [
+    253,
+    102
+   ],
+   "rim_px": 456,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "dog-bowl-x1": {
+   "src": "props/sized/dog-bowl@BR.png",
+   "size": [
+    129,
+    46
+   ],
+   "rim_px": 279,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "dog-bowl-x1p5": {
+   "src": "props/sized/dog-bowl@BRx1.5.png",
+   "size": [
+    191,
+    68
+   ],
+   "rim_px": 430,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "farsdag-tie-box-x1": {
+   "src": "props/sized/farsdag-tie-box@BR.png",
+   "size": [
+    138,
+    65
+   ],
+   "rim_px": 416,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "farsdag-tie-box-x1p5": {
+   "src": "props/sized/farsdag-tie-box@BRx1.5.png",
+   "size": [
+    205,
+    97
+   ],
+   "rim_px": 641,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "fastelavnsris-x1": {
+   "src": "props/sized/fastelavnsris@BR.png",
+   "size": [
+    115,
+    114
+   ],
+   "rim_px": 346,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "fastelavnsris-x1p5": {
+   "src": "props/sized/fastelavnsris@BRx1.5.png",
+   "size": [
+    172,
+    171
+   ],
+   "rim_px": 728,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "flower-bouquet-x1": {
+   "src": "props/sized/flower-bouquet@BR.png",
+   "size": [
+    85,
+    106
+   ],
+   "rim_px": 256,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "flower-bouquet-x1p5": {
+   "src": "props/sized/flower-bouquet@BRx1.5.png",
+   "size": [
+    127,
+    159
+   ],
+   "rim_px": 395,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "jul-star-x1": {
+   "src": "props/sized/jul-star@BR.png",
+   "size": [
+    133,
+    121
+   ],
+   "rim_px": 564,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "jul-star-x1p5": {
+   "src": "props/sized/jul-star@BRx1.5.png",
+   "size": [
+    195,
+    177
+   ],
+   "rim_px": 837,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lantern-ice-x1": {
+   "src": "props/sized/lantern-ice@BR.png",
+   "size": [
+    62,
+    118
+   ],
+   "rim_px": 230,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lantern-ice-x1p5": {
+   "src": "props/sized/lantern-ice@BRx1.5.png",
+   "size": [
+    92,
+    176
+   ],
+   "rim_px": 386,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lantern-snow-a-x1": {
+   "src": "props/sized/lantern-snow-a@BR.png",
+   "size": [
+    69,
+    118
+   ],
+   "rim_px": 267,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lantern-snow-a-x1p5": {
+   "src": "props/sized/lantern-snow-a@BRx1.5.png",
+   "size": [
+    103,
+    176
+   ],
+   "rim_px": 481,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lantern-snow-b-x1": {
+   "src": "props/sized/lantern-snow-b@BR.png",
+   "size": [
+    65,
+    118
+   ],
+   "rim_px": 229,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lantern-snow-b-x1p5": {
+   "src": "props/sized/lantern-snow-b@BRx1.5.png",
+   "size": [
+    96,
+    176
+   ],
+   "rim_px": 380,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lantern-x1": {
+   "src": "props/sized/lantern@BR.png",
+   "size": [
+    99,
+    118
+   ],
+   "rim_px": 228,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lantern-x1p5": {
+   "src": "props/sized/lantern@BRx1.5.png",
+   "size": [
+    147,
+    176
+   ],
+   "rim_px": 369,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lucia-candle-x1": {
+   "src": "props/sized/lucia-candle@BR.png",
+   "size": [
+    72,
+    95
+   ],
+   "rim_px": 108,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "lucia-candle-x1p5": {
+   "src": "props/sized/lucia-candle@BRx1.5.png",
+   "size": [
+    107,
+    142
+   ],
+   "rim_px": 168,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "nyttar-sparkler-x1": {
+   "src": "props/sized/nyttar-sparkler@BR.png",
+   "size": [
+    67,
+    106
+   ],
+   "rim_px": 127,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "nyttar-sparkler-x1p5": {
+   "src": "props/sized/nyttar-sparkler@BRx1.5.png",
+   "size": [
+    100,
+    159
+   ],
+   "rim_px": 194,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "pask-egg-nest-x1": {
+   "src": "props/sized/pask-egg-nest@BR.png",
+   "size": [
+    106,
+    57
+   ],
+   "rim_px": 313,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "pask-egg-nest-x1p5": {
+   "src": "props/sized/pask-egg-nest@BRx1.5.png",
+   "size": [
+    159,
+    85
+   ],
+   "rim_px": 683,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "pumpkin-x1": {
+   "src": "props/sized/pumpkin@BR.png",
+   "size": [
+    116,
+    68
+   ],
+   "rim_px": 213,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "pumpkin-x1p5": {
+   "src": "props/sized/pumpkin@BRx1.5.png",
+   "size": [
+    175,
+    102
+   ],
+   "rim_px": 324,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "rubber-boots-x1": {
+   "src": "props/sized/rubber-boots@BR.png",
+   "size": [
+    128,
+    76
+   ],
+   "rim_px": 228,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "rubber-boots-x1p5": {
+   "src": "props/sized/rubber-boots@BRx1.5.png",
+   "size": [
+    193,
+    114
+   ],
+   "rim_px": 347,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "sankthans-glow-x1": {
+   "src": "props/sized/sankthans-glow@BR.png",
+   "size": [
+    154,
+    57
+   ],
+   "rim_px": 567,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "sankthans-glow-x1p5": {
+   "src": "props/sized/sankthans-glow@BRx1.5.png",
+   "size": [
+    230,
+    85
+   ],
+   "rim_px": 891,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "skis-ice-x1": {
+   "src": "props/sized/skis-ice@BR.png",
+   "size": [
+    52,
+    141
+   ],
+   "rim_px": 193,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "skis-ice-x1p5": {
+   "src": "props/sized/skis-ice@BRx1.5.png",
+   "size": [
+    65,
+    177
+   ],
+   "rim_px": 244,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "skis-snow-a-x1": {
+   "src": "props/sized/skis-snow-a@BR.png",
+   "size": [
+    56,
+    141
+   ],
+   "rim_px": 305,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "skis-snow-a-x1p5": {
+   "src": "props/sized/skis-snow-a@BRx1.5.png",
+   "size": [
+    70,
+    177
+   ],
+   "rim_px": 424,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "skis-x1": {
+   "src": "props/sized/skis@BR.png",
+   "size": [
+    78,
+    141
+   ],
+   "rim_px": 176,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "skis-x1p5": {
+   "src": "props/sized/skis@BRx1.5.png",
+   "size": [
+    98,
+    177
+   ],
+   "rim_px": 240,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "sled-x1": {
+   "src": "props/sized/sled@BR.png",
+   "size": [
+    114,
+    65
+   ],
+   "rim_px": 750,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "sled-x1p5": {
+   "src": "props/sized/sled@BRx1.5.png",
+   "size": [
+    170,
+    97
+   ],
+   "rim_px": 1264,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "small-gift-x1": {
+   "src": "props/sized/small-gift@BR.png",
+   "size": [
+    119,
+    72
+   ],
+   "rim_px": 197,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "small-gift-x1p5": {
+   "src": "props/sized/small-gift@BRx1.5.png",
+   "size": [
+    179,
+    108
+   ],
+   "rim_px": 300,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "string-tied-note-x1": {
+   "src": "props/sized/string-tied-note@BR.png",
+   "size": [
+    98,
+    110
+   ],
+   "rim_px": 216,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "string-tied-note-x1p5": {
+   "src": "props/sized/string-tied-note@BRx1.5.png",
+   "size": [
+    147,
+    165
+   ],
+   "rim_px": 343,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "stroller-ice-x1": {
+   "src": "props/sized/stroller-ice@BR.png",
+   "size": [
+    119,
+    141
+   ],
+   "rim_px": 889,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "stroller-ice-x1p5": {
+   "src": "props/sized/stroller-ice@BRx1.5.png",
+   "size": [
+    150,
+    177
+   ],
+   "rim_px": 1135,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "stroller-snow-a-x1": {
+   "src": "props/sized/stroller-snow-a@BR.png",
+   "size": [
+    126,
+    141
+   ],
+   "rim_px": 949,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "stroller-snow-a-x1p5": {
+   "src": "props/sized/stroller-snow-a@BRx1.5.png",
+   "size": [
+    158,
+    177
+   ],
+   "rim_px": 1248,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "stroller-x1": {
+   "src": "props/sized/stroller@BR.png",
+   "size": [
+    189,
+    141
+   ],
+   "rim_px": 833,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "stroller-x1p5": {
+   "src": "props/sized/stroller@BRx1.5.png",
+   "size": [
+    238,
+    177
+   ],
+   "rim_px": 1069,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "suitcase-ice-x1": {
+   "src": "props/sized/suitcase-ice@BR.png",
+   "size": [
+    109,
+    99
+   ],
+   "rim_px": 374,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "suitcase-ice-x1p5": {
+   "src": "props/sized/suitcase-ice@BRx1.5.png",
+   "size": [
+    162,
+    148
+   ],
+   "rim_px": 552,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "suitcase-snow-a-x1": {
+   "src": "props/sized/suitcase-snow-a@BR.png",
+   "size": [
+    111,
+    99
+   ],
+   "rim_px": 531,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "suitcase-snow-a-x1p5": {
+   "src": "props/sized/suitcase-snow-a@BRx1.5.png",
+   "size": [
+    166,
+    148
+   ],
+   "rim_px": 863,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "suitcase-snow-b-x1": {
+   "src": "props/sized/suitcase-snow-b@BR.png",
+   "size": [
+    102,
+    99
+   ],
+   "rim_px": 460,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "suitcase-snow-b-x1p5": {
+   "src": "props/sized/suitcase-snow-b@BRx1.5.png",
+   "size": [
+    153,
+    148
+   ],
+   "rim_px": 699,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "suitcase-x1": {
+   "src": "props/sized/suitcase@BR.png",
+   "size": [
+    171,
+    99
+   ],
+   "rim_px": 354,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  },
+  "suitcase-x1p5": {
+   "src": "props/sized/suitcase@BRx1.5.png",
+   "size": [
+    256,
+    148
+   ],
+   "rim_px": 526,
+   "lift": [
+    18,
+    18,
+    10
+   ]
+  }
+ }
+}

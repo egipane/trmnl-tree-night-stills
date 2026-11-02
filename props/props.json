@@ -1,0 +1,484 @@
+{
+ "17mai-flag-bow": {
+  "file": "props/17mai-flag-bow.png",
+  "master_px": [
+   256,
+   320
+  ],
+  "aspect_w_over_h": 0.8,
+  "foot_frac": 0.065,
+  "object_frac_h": 0.924,
+  "nominal_h_still": 62
+ },
+ "advent-candles": {
+  "file": "props/advent-candles.png",
+  "master_px": [
+   909,
+   320
+  ],
+  "aspect_w_over_h": 2.841,
+  "foot_frac": 0.07,
+  "object_frac_h": 0.91,
+  "nominal_h_still": 30
+ },
+ "advent-candles-ice": {
+  "file": "props/advent-candles-ice.png",
+  "master_px": [
+   767,
+   320
+  ],
+  "aspect_w_over_h": 2.397,
+  "foot_frac": 0.028,
+  "nominal_h_still": 30,
+  "method": "procedural rime, no grass shadow",
+  "base": "advent-candles"
+ },
+ "advent-candles-snow-a": {
+  "file": "props/advent-candles-snow-a.png",
+  "master_px": [
+   830,
+   320
+  ],
+  "aspect_w_over_h": 2.594,
+  "foot_frac": 0.02,
+  "nominal_h_still": 30,
+  "method": "A-img2img",
+  "base": "advent-candles"
+ },
+ "backpack": {
+  "file": "props/backpack.png",
+  "master_px": [
+   438,
+   320
+  ],
+  "aspect_w_over_h": 1.369,
+  "foot_frac": 0.065,
+  "object_frac_h": 0.926,
+  "nominal_h_still": 56
+ },
+ "backpack-ice": {
+  "file": "props/backpack-ice.png",
+  "master_px": [
+   271,
+   320
+  ],
+  "aspect_w_over_h": 0.847,
+  "foot_frac": 0.013,
+  "nominal_h_still": 56,
+  "method": "procedural rime, no grass shadow",
+  "base": "backpack"
+ },
+ "backpack-snow-a": {
+  "file": "props/backpack-snow-a.png",
+  "master_px": [
+   318,
+   320
+  ],
+  "aspect_w_over_h": 0.994,
+  "foot_frac": 0.089,
+  "nominal_h_still": 56,
+  "method": "A-img2img",
+  "base": "backpack"
+ },
+ "ball-quiet": {
+  "file": "props/ball-quiet.png",
+  "master_px": [
+   505,
+   320
+  ],
+  "aspect_w_over_h": 1.578,
+  "foot_frac": 0.066,
+  "object_frac_h": 0.922,
+  "nominal_h_still": 32
+ },
+ "ball-quiet-ice": {
+  "file": "props/ball-quiet-ice.png",
+  "master_px": [
+   353,
+   320
+  ],
+  "aspect_w_over_h": 1.103,
+  "foot_frac": 0.017,
+  "nominal_h_still": 32,
+  "method": "procedural rime, no grass shadow",
+  "base": "ball-quiet"
+ },
+ "ball-quiet-snow-a": {
+  "file": "props/ball-quiet-snow-a.png",
+  "master_px": [
+   325,
+   320
+  ],
+  "aspect_w_over_h": 1.016,
+  "foot_frac": 0.098,
+  "nominal_h_still": 32,
+  "method": "A-img2img",
+  "base": "ball-quiet"
+ },
+ "cake": {
+  "file": "props/cake.png",
+  "master_px": [
+   602,
+   320
+  ],
+  "aspect_w_over_h": 1.881,
+  "foot_frac": 0.068,
+  "object_frac_h": 0.917,
+  "nominal_h_still": 44
+ },
+ "cleaning-bucket": {
+  "file": "props/cleaning-bucket.png",
+  "master_px": [
+   354,
+   320
+  ],
+  "aspect_w_over_h": 1.106,
+  "foot_frac": 0.065,
+  "object_frac_h": 0.925,
+  "nominal_h_still": 52
+ },
+ "cleaning-bucket-ice": {
+  "file": "props/cleaning-bucket-ice.png",
+  "master_px": [
+   299,
+   320
+  ],
+  "aspect_w_over_h": 0.934,
+  "foot_frac": 0.014,
+  "nominal_h_still": 52,
+  "method": "procedural rime, no grass shadow",
+  "base": "cleaning-bucket"
+ },
+ "cleaning-bucket-snow-a": {
+  "file": "props/cleaning-bucket-snow-a.png",
+  "master_px": [
+   270,
+   320
+  ],
+  "aspect_w_over_h": 0.844,
+  "foot_frac": 0.073,
+  "nominal_h_still": 52,
+  "method": "A-img2img",
+  "base": "cleaning-bucket"
+ },
+ "dog-bowl-tall": {
+  "file": "props/dog-bowl-tall.png",
+  "master_px": [
+   795,
+   320
+  ],
+  "aspect_w_over_h": 2.484,
+  "foot_frac": 0.067,
+  "object_frac_h": 0.917,
+  "nominal_h_still": 36
+ },
+ "dog-bowl-tall-ice": {
+  "file": "props/dog-bowl-tall-ice.png",
+  "master_px": [
+   505,
+   320
+  ],
+  "aspect_w_over_h": 1.578,
+  "foot_frac": 0.022,
+  "nominal_h_still": 36,
+  "method": "procedural rime, no grass shadow",
+  "base": "dog-bowl-tall"
+ },
+ "dog-bowl-tall-snow-a": {
+  "file": "props/dog-bowl-tall-snow-a.png",
+  "master_px": [
+   481,
+   320
+  ],
+  "aspect_w_over_h": 1.503,
+  "foot_frac": 0.143,
+  "nominal_h_still": 36,
+  "method": "A-img2img",
+  "base": "dog-bowl-tall"
+ },
+ "farsdag-tie-box": {
+  "file": "props/farsdag-tie-box.png",
+  "master_px": [
+   677,
+   320
+  ],
+  "aspect_w_over_h": 2.116,
+  "foot_frac": 0.066,
+  "object_frac_h": 0.922,
+  "nominal_h_still": 34
+ },
+ "fastelavnsris": {
+  "file": "props/fastelavnsris.png",
+  "master_px": [
+   322,
+   320
+  ],
+  "aspect_w_over_h": 1.006,
+  "foot_frac": 0.065,
+  "object_frac_h": 0.925,
+  "nominal_h_still": 60
+ },
+ "flower-bouquet": {
+  "file": "props/flower-bouquet.png",
+  "master_px": [
+   256,
+   320
+  ],
+  "aspect_w_over_h": 0.8,
+  "foot_frac": 0.064,
+  "object_frac_h": 0.927,
+  "nominal_h_still": 56
+ },
+ "jul-star": {
+  "file": "props/jul-star.png",
+  "master_px": [
+   353,
+   320
+  ],
+  "aspect_w_over_h": 1.103,
+  "foot_frac": 0.064,
+  "object_frac_h": 0.926,
+  "nominal_h_still": 64
+ },
+ "lantern": {
+  "file": "props/lantern.png",
+  "master_px": [
+   268,
+   320
+  ],
+  "aspect_w_over_h": 0.838,
+  "foot_frac": 0.064,
+  "object_frac_h": 0.927,
+  "nominal_h_still": 62
+ },
+ "lantern-ice": {
+  "file": "props/lantern-ice.png",
+  "master_px": [
+   168,
+   320
+  ],
+  "aspect_w_over_h": 0.525,
+  "foot_frac": 0.012,
+  "nominal_h_still": 62,
+  "method": "procedural rime, no grass shadow",
+  "base": "lantern"
+ },
+ "lantern-snow-a": {
+  "file": "props/lantern-snow-a.png",
+  "master_px": [
+   187,
+   320
+  ],
+  "aspect_w_over_h": 0.584,
+  "foot_frac": 0.059,
+  "nominal_h_still": 62,
+  "method": "A-img2img",
+  "base": "lantern"
+ },
+ "lucia-candle": {
+  "file": "props/lucia-candle.png",
+  "master_px": [
+   242,
+   320
+  ],
+  "aspect_w_over_h": 0.756,
+  "foot_frac": 0.067,
+  "object_frac_h": 0.922,
+  "nominal_h_still": 50
+ },
+ "nyttar-sparkler": {
+  "file": "props/nyttar-sparkler.png",
+  "master_px": [
+   201,
+   320
+  ],
+  "aspect_w_over_h": 0.628,
+  "foot_frac": 0.065,
+  "object_frac_h": 0.922,
+  "nominal_h_still": 56
+ },
+ "pask-egg-nest": {
+  "file": "props/pask-egg-nest.png",
+  "master_px": [
+   597,
+   320
+  ],
+  "aspect_w_over_h": 1.866,
+  "foot_frac": 0.066,
+  "object_frac_h": 0.923,
+  "nominal_h_still": 30
+ },
+ "pumpkin": {
+  "file": "props/pumpkin.png",
+  "master_px": [
+   548,
+   320
+  ],
+  "aspect_w_over_h": 1.712,
+  "foot_frac": 0.066,
+  "object_frac_h": 0.921,
+  "nominal_h_still": 36
+ },
+ "rubber-boots": {
+  "file": "props/rubber-boots.png",
+  "master_px": [
+   541,
+   320
+  ],
+  "aspect_w_over_h": 1.691,
+  "foot_frac": 0.066,
+  "object_frac_h": 0.921,
+  "nominal_h_still": 40
+ },
+ "sankthans-glow": {
+  "file": "props/sankthans-glow.png",
+  "master_px": [
+   864,
+   320
+  ],
+  "aspect_w_over_h": 2.7,
+  "foot_frac": 0.069,
+  "object_frac_h": 0.911,
+  "nominal_h_still": 30
+ },
+ "skis": {
+  "file": "props/skis.png",
+  "master_px": [
+   177,
+   320
+  ],
+  "aspect_w_over_h": 0.553,
+  "foot_frac": 0.065,
+  "object_frac_h": 0.925,
+  "nominal_h_still": 84
+ },
+ "skis-ice": {
+  "file": "props/skis-ice.png",
+  "master_px": [
+   118,
+   320
+  ],
+  "aspect_w_over_h": 0.369,
+  "foot_frac": 0.014,
+  "nominal_h_still": 84,
+  "method": "procedural rime, no grass shadow",
+  "base": "skis"
+ },
+ "skis-snow-a": {
+  "file": "props/skis-snow-a.png",
+  "master_px": [
+   127,
+   320
+  ],
+  "aspect_w_over_h": 0.397,
+  "foot_frac": 0.045,
+  "nominal_h_still": 84,
+  "method": "A-img2img",
+  "base": "skis"
+ },
+ "sled": {
+  "file": "props/sled.png",
+  "master_px": [
+   560,
+   320
+  ],
+  "aspect_w_over_h": 1.75,
+  "foot_frac": 0.114,
+  "nominal_h_still": 34,
+  "method": "A-img2img",
+  "base": "sled",
+  "family": "season/tomorrow (snow bonus)"
+ },
+ "small-gift": {
+  "file": "props/small-gift.png",
+  "master_px": [
+   529,
+   320
+  ],
+  "aspect_w_over_h": 1.653,
+  "foot_frac": 0.066,
+  "object_frac_h": 0.921,
+  "nominal_h_still": 38
+ },
+ "string-tied-note": {
+  "file": "props/string-tied-note.png",
+  "master_px": [
+   285,
+   320
+  ],
+  "aspect_w_over_h": 0.891,
+  "foot_frac": 0.065,
+  "object_frac_h": 0.924,
+  "nominal_h_still": 58
+ },
+ "stroller": {
+  "file": "props/stroller.png",
+  "master_px": [
+   430,
+   320
+  ],
+  "aspect_w_over_h": 1.344,
+  "foot_frac": 0.065,
+  "object_frac_h": 0.927,
+  "nominal_h_still": 76
+ },
+ "stroller-ice": {
+  "file": "props/stroller-ice.png",
+  "master_px": [
+   271,
+   320
+  ],
+  "aspect_w_over_h": 0.847,
+  "foot_frac": 0.012,
+  "nominal_h_still": 76,
+  "method": "procedural rime, no grass shadow",
+  "base": "stroller"
+ },
+ "stroller-snow-a": {
+  "file": "props/stroller-snow-a.png",
+  "master_px": [
+   286,
+   320
+  ],
+  "aspect_w_over_h": 0.894,
+  "foot_frac": 0.086,
+  "nominal_h_still": 76,
+  "method": "A-img2img",
+  "base": "stroller"
+ },
+ "suitcase": {
+  "file": "props/suitcase.png",
+  "master_px": [
+   554,
+   320
+  ],
+  "aspect_w_over_h": 1.731,
+  "foot_frac": 0.065,
+  "object_frac_h": 0.925,
+  "nominal_h_still": 52
+ },
+ "suitcase-ice": {
+  "file": "props/suitcase-ice.png",
+  "master_px": [
+   351,
+   320
+  ],
+  "aspect_w_over_h": 1.097,
+  "foot_frac": 0.014,
+  "nominal_h_still": 52,
+  "method": "procedural rime, no grass shadow",
+  "base": "suitcase"
+ },
+ "suitcase-snow-a": {
+  "file": "props/suitcase-snow-a.png",
+  "master_px": [
+   358,
+   320
+  ],
+  "aspect_w_over_h": 1.119,
+  "foot_frac": 0.105,
+  "nominal_h_still": 52,
+  "method": "A-img2img",
+  "base": "suitcase"
+ }
+}
